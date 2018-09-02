@@ -52,6 +52,7 @@ public class TestFacebookLogin {
 		WebElement emailEle= driver.findElement(By.id("email"));
 		emailEle.sendKeys("realusername");
 		WebElement  passEle= driver.findElement(By.id("pass"));
+		passEle.sendKeys("realpassword");
 		driver.findElement(By.id("loginbutton")).click();
 	}
 	
