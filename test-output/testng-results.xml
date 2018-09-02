@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10801" started-at="2018-09-02T15:09:56Z" finished-at="2018-09-02T15:10:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10801" started-at="2018-09-02T15:09:56Z" finished-at="2018-09-02T15:10:07Z">
+      <class name="com.testfacebooklogin.test.TestFacebookLogin">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:com.testfacebooklogin.test.TestFacebookLogin@6093dd95]" name="browserSetUp" is-config="true" duration-ms="9363" started-at="2018-09-02T20:39:47Z" finished-at="2018-09-02T20:39:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="loginFacebookPage()[pri:0, instance:com.testfacebooklogin.test.TestFacebookLogin@6093dd95]" name="loginFacebookPage" duration-ms="10537" started-at="2018-09-02T20:39:56Z" finished-at="2018-09-02T20:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebookPage -->
+        <test-method status="PASS" signature="checkLoginSuccessful()[pri:0, instance:com.testfacebooklogin.test.TestFacebookLogin@6093dd95]" name="checkLoginSuccessful" duration-ms="244" started-at="2018-09-02T20:40:07Z" finished-at="2018-09-02T20:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginSuccessful -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.testfacebooklogin.test.TestFacebookLogin@6093dd95]" name="terminateBrowser" is-config="true" duration-ms="1357" started-at="2018-09-02T20:40:07Z" finished-at="2018-09-02T20:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.testfacebooklogin.test.TestFacebookLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testfacebooklogin.test.TestFacebookLogin">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="loginFacebookPage"/>
+          <include name="checkLoginSuccessful"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.testfacebooklogin.test.TestFacebookLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
